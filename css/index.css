@@ -1,5 +1,6 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 .main {
     color: white;
@@ -29,4 +30,18 @@ h1 {
 
 .about {
     text-align: center;
+}
+
+.service {
+    height: 400px;
+    background-image: url("../images/backgrounds/s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:white;
+}
+
+.service>div {
+    position: relative;
+    top: 30%;
 }
