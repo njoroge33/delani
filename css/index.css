@@ -30,7 +30,7 @@ h1 {
 }
 
 .about {
-    font-weight: bold;
+    margin-top: 5%;
     text-align: center;
 }
 
@@ -49,6 +49,17 @@ h1 {
     top: 30%;
 }
 
-.row {
+
+.what {
     text-align: center;
+    margin-top: 6%;
+    margin-bottom: 10%; 
+}
+
+.what h2{
+    margin-bottom: 3%;
+}
+
+h6, h2{
+    font-weight: bold;
 }
