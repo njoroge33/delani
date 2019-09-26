@@ -1,6 +1,6 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 .main {
     color: white;
@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     font-size: 13px;
+    font-weight: bold;
 }
 
 .first {
@@ -29,6 +30,7 @@ h1 {
 }
 
 .about {
+    font-weight: bold;
     text-align: center;
 }
 
@@ -39,9 +41,11 @@ h1 {
     background-size: cover;
     text-align: center;
     color:white;
+    font-weight: bold
 }
 
 .service>div {
     position: relative;
     top: 30%;
 }
+
