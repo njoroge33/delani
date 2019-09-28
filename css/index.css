@@ -57,6 +57,10 @@ h1 {
     margin-bottom: 5%; 
 }
 
+.col-4>p {
+    display: none;
+}
+
 .head {
     margin-bottom: 3%;
 }
@@ -67,6 +71,7 @@ h6, h2{
 
 .row>img {
     margin-top: 2%;
+    margin-bottom: 5%;
 }
 .row {
     padding-left: 10%;
