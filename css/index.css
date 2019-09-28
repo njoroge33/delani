@@ -78,4 +78,15 @@ h6, h2{
     background-image: url("../images/backgrounds/c_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    padding-top: 5%;
+}
+
+input {
+    margin-bottom: 3%;
+    background-color: transparent;
+}
+
+#message {
+    height: 200px;
 }
