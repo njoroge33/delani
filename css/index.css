@@ -79,6 +79,16 @@ h6, h2{
     text-align: center;
 }
 
+.test {
+    height: 100%;
+    width: 100%;
+}
+
+.two {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .contact {
     background-image: url("../images/backgrounds/c_image.jpg");
     background-repeat: no-repeat;
