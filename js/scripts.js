@@ -23,8 +23,10 @@ $(document).ready(function () {
 
         if (name == '' || email == '' || message == '') {
           $("#post").html("Please fill all fields");
+          $(".post").css('background-color', 'red')
         } else {
           $("#post").html(name + " we have received your message. Thank you for reaching out to us")
+          $(".post").css('background-color', 'black')
           $("form")[0].reset();
         }
       })
