@@ -89,24 +89,18 @@ h6, h2{
     margin-bottom: 5%;
 }
 
-.description {
+.img_wrap {
+    position: relative;
+    overflow: hidden;
+  }
+   
+  .img_description {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
     opacity: 0;
-    transition: .5s ease;
-    background-color: black;
-}
-
-.text {
+    transition: opacity .2s, visibility .2s;
     border: 2px solid white;
     color: white;
-    font-size: 20px;
-    position: absolute;
+    font-size: 30px;
     height: 70%;
     width: 70%;
     top: 50%;
@@ -116,6 +110,13 @@ h6, h2{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+   
+  .img_description_show {
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
 
 .contact {
     background-image: url("../images/backgrounds/c_image.jpg");

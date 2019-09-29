@@ -10,4 +10,8 @@ $(document).ready(function () {
     $("#img3").click(function(){
         $("#des").toggle();
     });
+
+    $(".img_wrap").hover(function () {
+        $(this).find("div").toggleClass("img_description_show");
+      });
 });
