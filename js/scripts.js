@@ -14,4 +14,18 @@ $(document).ready(function () {
     $(".img_wrap").hover(function () {
         $(this).find("div").toggleClass("img_description_show");
       });
+
+      $("#submit").click(function () {
+        event.preventDefault()
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var message = $("#message").val();
+
+        if (name == '' || email == '' || message == '') {
+          $("#post").html("Please fill all fields");
+        } else {
+          $("#post").html(name + " we have received your message. Thank you for reaching out to us")
+          $("form")[0].reset();
+        }
+      })
 });
