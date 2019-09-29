@@ -122,12 +122,30 @@ h6, h2{
     padding-top: 5%;
 }
 
-input {
-    margin-bottom: 3%;
-    background-color: transparent;
-}
-
 #message {
     height: 200px;
 }
 
+.contact form {
+    text-align: center;
+    padding-bottom: 10%;
+  }
+  
+  .contact input {
+    margin-bottom: 3%;
+    background: transparent;
+    color: white;
+  }
+  
+  .contact textarea {
+    background: transparent;
+    color: white;
+  }
+  
+  
+  .contact textarea::placeholder, .contact input::placeholder {
+    background: transparent;
+    color: #fff;
+  }
+  
+  
