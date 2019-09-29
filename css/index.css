@@ -84,14 +84,10 @@ h6, h2{
     width: 100%;
 }
 
-.two {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
 .img_wrap {
     position: relative;
     overflow: hidden;
+    margin-bottom: 5%;
   }
    
   .img_description {
